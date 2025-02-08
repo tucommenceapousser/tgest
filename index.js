@@ -3,7 +3,7 @@ const express = require("express");
 const sqlite3 = require("sqlite3").verbose();
 
 // Configuration
-const BOT_TOKEN = "TON_TOKEN_TELEGRAM";
+const BOT_TOKEN = process.env.BOT_TOKEN;
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 const app = express();
 const db = new sqlite3.Database("data.db");
