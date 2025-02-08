@@ -1,0 +1,14 @@
+{
+  "name": "tgest",
+  "version": "1.0.0",
+  "description": "Bot Telegram qui collecte des données lorsqu'il est ajouté en admin à un canal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.6"
+  }
+}
