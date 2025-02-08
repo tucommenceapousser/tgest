@@ -13,5 +13,5 @@ sudo apt update && sudo apt install -y nodejs npm git
 git clone https://github.com/tucommenceapousser/tgest.git
 cd tgest
 npm install
-node bot.js
+node index.js
 ```
